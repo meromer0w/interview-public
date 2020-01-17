@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class AccountController extends AbstractAccountController {
 
     public ResponseEntity<Void> transfer(long sourceId, long targetId, double amount) {
-        return null;
+        return ResponseEntity.ok().build();
     }
 }
